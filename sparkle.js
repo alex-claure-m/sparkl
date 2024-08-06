@@ -132,3 +132,4 @@ function createDiv(height, width) {
     div.style.backgroundColor = Math.random() > 0.5 ? colour : colour2; // Alterna entre los dos colores
     return div;
 }
+console.log("a la wea");
