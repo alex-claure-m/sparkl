@@ -1,6 +1,6 @@
 (function() {
     
-    var gistBloggerPath = "https://cdn.jsdelivr.net/gh/alex-claure-m/sparkles@main/sparkle.js";
+    var gistBloggerPath = "https://cdn.jsdelivr.net/gh/alex-claure-m/sparkle@main/sparkle.js";
 
     // Initialize the load the main script.
     try {
