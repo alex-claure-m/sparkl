@@ -1,6 +1,4 @@
 (function() {
-    var miScriptURL ="https://cdn.jsdelivr.net/gh/alex-claure-m/sparkles@main/sparkle.js";  // Cambia esta URL a la de tu archivo si lo tienes externo
-
     function initMiScript() {
         var colour = "#FFB6C1";
         var colour2 = "#E6E6FA";
