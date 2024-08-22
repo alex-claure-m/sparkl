@@ -4,14 +4,14 @@
 
     // Initialize the load the main script.
     try {
-        initGist();
+        initMiScript();
     } catch(e) {
         var scriptId = 'gistPrinter';
         if (document.getElementById(scriptId) === null) {
             var elem = document.createElement('SCRIPT');
             elem.id = scriptId;
             elem.onload = function() {
-              initGist();
+              initMiScript();
             }
             elem.src = gistBloggerPath;
             var theBody = document.getElementsByTagName('body')[0];
