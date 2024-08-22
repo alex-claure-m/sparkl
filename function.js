@@ -4,15 +4,15 @@
       try {
              initMiScript();
            } catch(e) {
-            var scriptId = &#39;miScript&#39;;
+            var scriptId = 'miScript';
             if (document.getElementById(scriptId) === null) {
-                 var elem = document.createElement(&#39;SCRIPT&#39;);
+                 var elem = document.createElement('SCRIPT');
                  elem.id = scriptId;
                   elem.onload = function() {
                     initMiScript(); // Llama la función después de que el script se cargue
                   };
                   elem.src = miScriptURL; // Cambia esto a la URL de tu script externo si lo tienes en uno
-                   var theBody = document.getElementsByTagName(&#39;body&#39;)[0];
+                   var theBody = document.getElementsByTagName('body')[0];
                    theBody.appendChild(elem);
              }
           }
