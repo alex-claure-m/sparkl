@@ -1,5 +1,5 @@
 (function() {
-    var miScriptURL = "https://cdn.jsdelivr.net/gh/alex-claure-m/sparkle@main/sparkle.js";
+    var miScriptURL = "https://cdn.jsdelivr.net/gh/alex-claure-m/sparkl@main/sparkle.js";
 
     try {
         initMiScript();
