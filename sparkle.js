@@ -1,4 +1,3 @@
-<script><![CDATA[
 var colour = "#FFB6C1";
 var colour2 = "#E6E6FA";
 var sparkles = 150;
@@ -152,4 +151,3 @@ function createDiv(height, width) {
   div.style.backgroundColor = Math.random() > 0.5 ? colour : colour2;
   return div;
 }
-]]></script>
