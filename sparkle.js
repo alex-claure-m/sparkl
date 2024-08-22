@@ -1,5 +1,5 @@
 (function() {
-    var miScriptURL = "https://github.com/alex-claure-m/sparkles/edit/main/sparkle.js";  // Cambia esta URL a la de tu archivo si lo tienes externo
+    var miScriptURL = "https://github.com/alex-claure-m/sparkles/blob/main/sparkle.js";  // Cambia esta URL a la de tu archivo si lo tienes externo
 
     function initMiScript() {
         var colour = "#FFB6C1";
